@@ -18,7 +18,7 @@ var config = {
 		}
 	}
 }
-
+1
 var app = new Koa()
 app.use(wechat(config))
 app.listen(1234)
